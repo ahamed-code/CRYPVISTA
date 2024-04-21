@@ -12,6 +12,7 @@ This Streamlit web application predicts cryptocurrency prices and visualizes the
 - Visualization of actual and predicted prices using line charts.
 - Summary of actual and predicted mean prices with differences.
 - Sidebar input for setting desired prices with real-time notification.
+- latest lstm algorithm is used for efficiency 
 
 ## Installation
 1. Download Zip file:
@@ -41,7 +42,7 @@ streamlit run crypto.py
 - Set desired prices in the sidebar input for notifications.
 
 ## Contributor
-- [BASHEER AHAMED A](https://github.com/your_username)
+- [BASHEER AHAMED A](https://github.com/ahamed-code)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
