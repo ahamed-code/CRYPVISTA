@@ -112,7 +112,7 @@ def display_prediction_app(username):
     st.markdown("---")
 
     available_cryptos = ['Bitcoin', 'Ethereum', 'Solana']
-    coin_map = {'Bitcoin': 'BTC-USD', 'Ethereum': 'ETH-USD', 'Solana': 'SOL-USD'}
+    coin_map = {'Bitcoin': 'csvs/BTC-USD', 'Ethereum': 'csvs/ETH-USD', 'Solana': 'csvs/SOL-USD'}
     selected_name = st.selectbox("Choose Cryptocurrency", available_cryptos)
     selected_crypto = coin_map[selected_name]
 
