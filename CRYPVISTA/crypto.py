@@ -160,7 +160,8 @@ def display_prediction_app(username):
 # ------------------ MAIN FUNCTION ------------------
 def main():
     st.title('"CRYP VISTA"')
-    st.image("CRYPTO.JPG", use_column_width=True)
+    st.image("IMAGE/CRYPTO.JPG", use_column_width=True)
+
 
     if 'display' not in st.session_state:
         st.session_state.display = False
